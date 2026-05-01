@@ -54,7 +54,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <Header />
-          <main className="site-main">
+          <main className="flex-1 w-full pt-8 pb-8">
             {children}
           </main>
           <Footer />
